@@ -1,6 +1,7 @@
 const BIOGRAFIAS = () => {
     return ( 
     <>
+    <h1>BIOGRAFIAS</h1>
     </> 
     
 );

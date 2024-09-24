@@ -1,6 +1,7 @@
 const MEDIUNICAS = () => {
     return ( 
     <>
+    <h1>mediúnica</h1>
     </> 
     
 );

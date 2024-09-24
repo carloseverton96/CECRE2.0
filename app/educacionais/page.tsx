@@ -1,6 +1,7 @@
 const EDUCACIONAIS = () => {
     return ( 
     <>
+    <h1>educacionais</h1>
     </> 
     
 );

@@ -5,9 +5,9 @@ import MENU from "./_components/menu";
 export default function Home() {
   return (
     <div>
-        <HEADER />
+        
 
-        <MENU />
+        
     </div>
   );
 }

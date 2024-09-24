@@ -4,7 +4,7 @@ import { Button } from "./ui/button";
 
 const HEADER = () => {
     return ( 
-        <div className="block">
+        <div className="block container">
        
             <Image
             className="block"
