@@ -1,10 +1,9 @@
 import Image from "next/image";
-import Link from "next/link";
-import { Button } from "./ui/button";
+
 
 const HEADER = () => {
     return ( 
-        <div className="block container">
+        <div className="flex-autox container">
        
             <Image
             className="block"
