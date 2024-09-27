@@ -52,7 +52,12 @@ html, body {
     text-align: justify;
 }
 
-
+.scrollToTop{   
+  position:fixed;
+  top:75px; 
+  right:40px;
+  display:none;
+}
 
 
 
