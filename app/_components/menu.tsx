@@ -7,13 +7,15 @@ const MENU = () => {
   const pathname = usePathname();
   return (
     
-    <div className="grid grid-cols-6 gap-4 justify-around mb-2">
+    <div className="flex flex-wrap justify-center mb-2 ">
       {/* posso usar a biblioteca "lucide" para inserir ícones */}
-      <Button variant={pathname === "/" ? "outline" : "secondary"} asChild>
+     
+      <Button 
+        variant={pathname === "/" ? "outline" : "secondary"} asChild>
         <Link href="/">INÍCIO</Link>
       </Button>
 
-      <Button
+      <Button 
         variant={pathname === "/publicas" ? "outline" : "secondary"}
         asChild
       >
