@@ -10,21 +10,21 @@ const FOOTER = () => {
         {/* Botão para Facebook */}
         <Button asChild variant="ghost" className="text-blue-600">
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">
-          <Image alt="auta de souza" src="/headset.png" width={50} height={50} className=""/>
+          <Image alt="auta de souza" src="/facebook.svg" width={20} height={20} className=""/>
           </a>
         </Button>
   
         {/* Botão para Instagram */}
         <Button asChild variant="ghost" className="text-pink-600">
           <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer">
-          <Image alt="auta de souza" src="/instagram.png" width={50} height={50} className=""/>
+          <Image alt="auta de souza" src="/instagram.svg" width={20} height={20} className=""/>
           </a>
         </Button>
   
         {/* Botão para WhatsApp */}
         <Button asChild variant="ghost" className="text-green-600">
           <a href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer">
-          <Image alt="auta de souza" src="/headset.png" width={50} height={50} className=""/>
+          <Image alt="auta de souza" src="/phone.svg" width={20} height={20} className=""/>
           </a>
         </Button>
       </footer>
